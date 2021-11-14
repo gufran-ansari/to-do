@@ -1,0 +1,31 @@
+<style>
+	a {
+		text-decoration: none;
+		color: rgb(230, 224, 224);
+		cursor: pointer;
+		font-size: 18px;
+		margin: 0px 20px;
+
+	}
+
+	.auth a:hover {
+		color: white;
+	}
+
+</style>
+
+
+<nav class="navbar navbar-dark bg-dark">
+
+	<div class="container-fluid">
+
+		<a href="{% url 'home' %}" class="navbar-brand">To Do App</a>
+
+		<div class="auth">
+			<a href="#">Register</a>
+			<a href="#">Login</a>
+		</div>
+
+	</div>
+
+</nav>
